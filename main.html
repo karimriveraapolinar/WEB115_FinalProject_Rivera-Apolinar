@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Manager</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div id="form"> 
-        <label for="taskName">Name of Task: </label>
-        <input type="text" id="taskName" />
-        
-        <label for="importance"> Importance</label>
-        <select id="importance" name ="importance">
-            <option value="High">High</option>
-            <option value="Medium">Medium</option>
-            <option value="Low">Low</option>
-        </select>
-        <button type="submit" id="submitButton">Submit</button>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="form">
+      <label for="taskName">Name of Task: </label>
+      <input type="text" id="taskName" />
+
+      <label for="Priority">Priority</label>
+      <select id="Priority" name="Priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <input type="checkbox" id="Importance" />
+      <label for="Importance">
+        <p>Important?</p>
+      </label>
+      <button type="submit" id="submitButton">Submit</button>
     </div>
     <div>
-        <p id="result"></p>
-        <p id="priority"></p>
+      <p id="taskmanager"></p>
     </div>
-    
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
