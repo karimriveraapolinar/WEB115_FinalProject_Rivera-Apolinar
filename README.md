@@ -1,1 +1,2 @@
 # WEB115_FinalProject_Rivera-Apolinar
+I struggled on console logging evrything and trying to add to the array, but the one thing i completely blanked out on/had no idea about was trying to get the line to turn red if it was marked as important and also trying to get a functioning delete button setup.

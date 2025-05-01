@@ -4,5 +4,5 @@
 #taskmanager{
 padding-left: cm;
 padding-right: 1%;
-text-align: center
+justify-content: space-between;
 }
